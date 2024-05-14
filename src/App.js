@@ -5,7 +5,7 @@ import CreateNote from './CreateNote';
 import Note from './Note';
 import './App.css';
 
-
+//App Component
 function App() {
 
   const [additem,setadditem]=useState([]);
