@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.header{
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 0.65rem;
+}
+
+footer{
+  text-align: center;
+  margin-top: 18vh;
+}
+
+.createnote{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.inrcreatenote{
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.note{
+  margin-top: 1rem;
+  display: flex;
+}
+
+.innernote{
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.inrcreatenote input{
+  margin-top: 1rem;
+  width: 200px;
+  height: 20px;
+  border: none;
+  background: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.inrcreatenote textarea{
+  height: 80px; 
+  margin-top: 1rem;
+  width: 240px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 0.75rem;
+}
+
+.btnplus{
+  background-color: black;
+  color: white;
+  padding: 0.1rem 3rem; 
+  border-radius: 0.75rem;
+  border: 3px solid green;
+  font-size: 2rem;
+  margin-top: 0.3rem;
+  cursor: pointer;
+}
+
+.btndel{
+  background-color: black;
+  color: white;
+  padding: 0.75rem 3rem; 
+  border-radius: 0.75rem;
+  border: 3px solid green;
+  font-size: 1rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
